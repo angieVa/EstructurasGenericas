@@ -157,7 +157,41 @@ public class StructureStackQueue<A> implements Stack<A>, Queque<A>{
 	
 	
 	
-	
+//	File file = new File ("Hola Mundo.txt");//Carga el archivo
+//	
+//	try {
+//		FileReader reader = new FileReader(file); //Se prepara para la lectura del archivo
+//		BufferedReader br = new BufferedReader(reader); //Se carga en el buffer para su manipulación
+//		String line = "";
+//		
+//		while((line = br.readLine()) != null){ //Se leen las lineas hasta el final del documento
+//			System.out.println(line);
+//		}
+//		
+//		br.close(); //Se cierra el buffer
+//		
+//	} catch (FileNotFoundException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//	}catch(IOException e){
+//		
+//	}
+//
+
+//	File file = new File ("Hola Mundo.txt");//Creación del archivo 
+//	try {
+//		FileWriter fw = new FileWriter(file); //Lo cargamos para su escritura
+//		BufferedWriter bw = new BufferedWriter(fw); //Lo pasamos por buffer para su manipulación
+//		bw.write("Hola Mundo!");
+//		
+//		bw.close();
+//		
+//	} catch (IOException e) {
+//		// TODO Auto-generated catch block
+//		e.printStackTrace();
+//		System.out.println(e.getMessage());
+//	}
+//	
 	
 
 

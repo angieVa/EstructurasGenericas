@@ -1,5 +1,12 @@
 package collections;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+
 public class NodeList<N> {
 	
 	private N info;
@@ -72,5 +79,57 @@ public class NodeList<N> {
 		this.key = key;
 	}
 	
+	
 
+//	for(long i = 0; i< casos; i++) {
+//		long productos = 0;
+//		
+//		try {
+//			String[] cp = br.readLine().split(" ");
+//			int numCajeros = Integer.parseInt(cp[0]);
+//			int numPersonas = Integer.parseInt(cp[1]);
+//			
+//			Almacen al = new Almacen(numCajeros);
+//			
+//			
+//			for(int j = 0; j < numPersonas; j++) {
+//				String[] p = br.readLine().split(" ");
+//				
+//				String id = p[0];
+//				int numProductos = Integer.parseInt(p[1]);
+//				productos += numProductos;
+//				
+//				al.agregarCliente(new Cliente(id, numProductos ));
+//				
+//			}
+//			
+//			al.despachar(productos);
+//			
+
+	
+	
+//
+//	public void leer() throws IOException{
+//		
+//		String resultado = "";
+////		String ruta = "datos/testCases.txt";
+////		
+////		FileReader fr = new FileReader(ruta);
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+//		
+//		long casos = Long.parseLong(br.readLine());
+//		String linea = "";
+//		
+//		for(long i = 0; i< casos; i++) {
+//			
+//			linea = br.readLine();
+//			
+//			resultado = balance(linea);
+//			bw.write(resultado);
+//			bw.write("\n");
+//			bw.flush();
+//		
+//		}
+//
 }
