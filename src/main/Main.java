@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 import collections.HashTableList;
 import collections.Heap;
+import collections.TreeAVL;
 import interfaces.IHashTable;
 import interfaces.IHeap;
 
@@ -99,32 +100,32 @@ public class Main {
 //	System.out.println(table1.Get(0));
 //	String pole = "uih";
 //	System.out.println(pole.hashCode());
-		
-		IHashTable<String> table = new HashTableList<String>(6);
-
-		table.insert("hola", 25);
-		table.insert("hol", 2421);
-		table.insert("gdd", 5645645);
-		table.insert("hhk", 122);
-		table.insert("scwq", 564);
-		table.insert("sfesfe", 34454);
-		table.insert("sfes2", 344);
-		System.out.println(table.Size());
-		System.out.println("");
-		
-		table.remove("hola", 25);
-		System.out.println(table.Size());
-		System.out.println("");
-		System.out.println(table.Get(2421));
-		
-		System.out.println(table.Get(5645645));
-		System.out.println(table.Get(122));
-		System.out.println(table.Get(564));
-		System.out.println(table.Get(344));
-		System.out.println("");
-		System.out.println(table.Size());
-		
-		
+//		
+//		IHashTable<String> table = new HashTableList<String>(6);
+//
+//		table.insert("hola", 25);
+//		table.insert("hol", 2421);
+//		table.insert("gdd", 5645645);
+//		table.insert("hhk", 122);
+//		table.insert("scwq", 564);
+//		table.insert("sfesfe", 34454);
+//		table.insert("sfes2", 344);
+//		System.out.println(table.Size());
+//		System.out.println("");
+//		
+//		table.remove("hola", 25);
+//		System.out.println(table.Size());
+//		System.out.println("");
+//		System.out.println(table.Get(2421));
+//		
+//		System.out.println(table.Get(5645645));
+//		System.out.println(table.Get(122));
+//		System.out.println(table.Get(564));
+//		System.out.println(table.Get(344));
+//		System.out.println("");
+//		System.out.println(table.Size());
+//		
+//		
 		
 //		IHeap<Integer> heap = new Heap<Integer>(10);
 //		
@@ -172,6 +173,11 @@ public class Main {
 //		System.out.println(heap.removeMin());
 //		System.out.println("");
 //		heap.print();
+//		
+//		TreeAVL<Integer> avl = new TreeAVL<Integer>();
+//		avl.insertar(1);
+//		avl.insertar(6);
+		
 	}
 
 }

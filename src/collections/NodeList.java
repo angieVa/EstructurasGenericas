@@ -84,6 +84,11 @@ public class NodeList<N> {
 //	for(long i = 0; i< casos; i++) {
 //		long productos = 0;
 //		
+	 //BufferedReader
+//    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//    String[] name = br.readLine().split(" "); 
+//	
+//	
 //		try {
 //			String[] cp = br.readLine().split(" ");
 //			int numCajeros = Integer.parseInt(cp[0]);
